@@ -10,7 +10,7 @@ header h1{
 }
 
 header h1:after{
-    content: "repair";
+    content: "reparo";
     text-transform: uppercase;
     color: c6c6ce;
     font-size: 30px;
@@ -21,4 +21,29 @@ header h2{
     font-size: 25px;
     margin: 0px;
     text-align: center;
+}
+
+.nav-container{
+    background-image: url(img/header.jpg);
+}
+
+header .nav{
+    height: 60px;
+    line-height: 60px;
+    
+}
+
+header a{
+    padding: 0 15px 0 15px;
+    background: url(img/li.jpg) right 0 no-repeat;
+}
+
+header a:first-child{
+    width: 61px;
+    background-image: url(img/home.jpg);
+    background-position: left;
+}
+
+.active{
+    background-position: right !important;
 }
